@@ -1,0 +1,64 @@
+@charset "UTF-8";
+
+.header{
+	display: flex;
+	background-color: white;
+    color: black;
+    font-size: 18px;
+    font-family: 'georgia';
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 20px;
+}
+
+.left-side{
+	text-align: center;
+}
+
+.right-side{
+	text-align: center;
+	padding-left: 550px;
+}
+
+.body{
+	background-color: #FFEBCD;
+	padding-bottom: 600px;
+}
+
+
+.buttons{
+  	position: absolute;
+  	top: 50%;
+  	left: 50%;
+  	transform: translate(-50%, -50%);
+  	padding: 10px;
+}
+
+
+
+
+button{
+	
+    font-family: 'georgia';
+    background-color: white; /* Green */
+ 	border-radius: 5px;
+  	color: black;
+  	border: 2px solid grey;
+  	padding: 15px 32px;
+  	text-align: center;
+  	text-decoration: none;
+  	display: inline-block;
+  	font-size: 16px;
+	cursor: pointer;
+}
+
+button:hover {
+  background-color: grey;
+  color: white;
+}
+
+button:active {
+  background-color: grey;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
