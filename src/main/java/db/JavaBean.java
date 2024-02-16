@@ -2,10 +2,6 @@ package db;
 
 import java.sql.*;
 
-/**
- *
- * @author vali
- */
 public class JavaBean {
 
     String error;
